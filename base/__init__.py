@@ -23,7 +23,6 @@ def main():
   config = uweb3.read_config(config_file)
   routes = [
       ('/', 'Index'),
-      ('/custom_route', 'HelloWorld'),
       ('/static/(.*)', 'Static'),
       ('/(.*)', 'FourOhFour'),
       ]
