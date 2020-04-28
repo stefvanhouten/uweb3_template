@@ -1,2 +1,3 @@
-.out
-.pyc
+*.out
+*.pyc
+uweb3-venv
