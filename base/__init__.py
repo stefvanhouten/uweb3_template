@@ -9,7 +9,7 @@ import uweb3
 # Application
 from . import pages
 
-def main():
+def main(sio=None):
   """Creates a uWeb3 application.
 
   The application is created from the following components:
@@ -19,12 +19,10 @@ def main():
     name of a presenter method which should handle it.
   - The configuration file (ini format) from which settings should be read.
   """
-  config_file = os.path.join(os.path.dirname(__file__), 'config.ini')
-  config = uweb3.read_config(config_file)
+  path = os.path.dirname(os.path.abspath(__file__))
   routes = [
       ('/', 'Index'),
       ('/custom', 'HelloWorld'),
-      ('/static/(.*)', 'Static'),
       ('/(.*)', 'FourOhFour'),
       ]
-  return uweb3.uWeb(pages.PageMaker, routes, config=config)
+  return uweb3.uWeb(pages.PageMaker, routes, executing_path=path)
