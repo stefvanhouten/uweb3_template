@@ -29,6 +29,23 @@
       <button class="toggle">Toggle</button>
     </div>
   </header>
-  <p>Welcome to my custom route</p>
+  <section>
+    <form action="/signup" method="post">
+      <fieldset>
+        <p><label for="name">Username: </label><input id="name" name="username" type="text" required="required" maxlength="30"></p>
+        <p><label for="password">Password: </label><input type="password" name="password" id="password" required="required"></p>
+      </fieldset>
+      <fieldset>
+        <p><label></label><input type="submit" value="Register"></p>
+      </fieldset>
+    </form>
+    <div class="error">
+      <h1>
+        {{ for message in [messages] }}
+          <p>[message]<p>
+        {{ endfor }}
+      </h1>
+    </div>
+  </section>
 </body>
 </html>

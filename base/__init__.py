@@ -22,7 +22,9 @@ def main(sio=None):
   path = os.path.dirname(os.path.abspath(__file__))
   routes = [
       ('/', 'Index'),
-      ('/custom', 'HelloWorld'),
+      ('/signup', 'Signup'),
+      ('/home', 'Home'),
+      ('/login', 'ValidateLogin'),
       ('/(.*)', 'FourOhFour'),
       ]
   return uweb3.uWeb(pages.PageMaker, routes, executing_path=path)

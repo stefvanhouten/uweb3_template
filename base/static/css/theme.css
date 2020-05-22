@@ -204,3 +204,10 @@ nav.pagination > ol > li.next > a::before {
 nav.pagination > ol > li.last > a::before {
   content: url('data:image/svg+xml,<svg fill="%23347ab7" viewBox="-2 -3 4 6" xmlns="http://www.w3.org/2000/svg"><polygon points="0.5 0, -1.5 -1.5, -1.5 1.5"/><rect x="0.5" y="-1.5" width="1" height="3"/></svg>');
 }
+
+.error {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60rem;
+  color: red;
+}

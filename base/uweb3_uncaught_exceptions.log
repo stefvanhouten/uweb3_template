@@ -1,0 +1,806 @@
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 17, in ValidateLogin
+    user = self.USER.FromName(
+AttributeError: type object 'User' has no attribute 'FromName'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 17, in ValidateLogin
+    user = self.USER.FromName(
+AttributeError: type object 'User' has no attribute 'FromName'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 17, in ValidateLogin
+    user = self.USER.FromName(
+AttributeError: type object 'User' has no attribute 'FromName'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+TypeError: _Login_Failure() missing 1 required positional argument: 'secure'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username 'stef'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 23, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    raise NotImplementedError
+NotImplementedError
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 17, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 22, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    return self.req.Redirect()
+TypeError: Redirect() missing 1 required positional argument: 'location'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 17, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 22, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    return self.req.Redirect('/', message='hello')
+TypeError: Redirect() got an unexpected keyword argument 'message'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 17, in ValidateLogin
+    self.connection, self.post.getfirst('username'))
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 475, in __init__
+    raw_template = open(self._file_name).read()
+IsADirectoryError: [Errno 21] Is a directory: '/'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 185, in AddTemplate
+    self[name or location] = FileTemplate(template_path, parser=self)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 478, in __init__
+    raise TemplateReadError('Cannot open: %r' % template_path)
+uweb3.templateparser.TemplateReadError: Cannot open: '/'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 22, in ValidateLogin
+    return self._Login_Failure()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 31, in _Login_Failure
+    return self.parser.Parse('/', message=message)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 204, in Parse
+    return self[template].Parse(**replacements)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 163, in __getitem__
+    self.AddTemplate(template)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 187, in AddTemplate
+    raise TemplateReadError('Could not load template %r' % template_path)
+uweb3.templateparser.TemplateReadError: Could not load template '/'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 785, in GetValue
+    value = replacements[self.name]
+KeyError: 'message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 50, in Index
+    return self.parser.Parse('index.html')
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 204, in Parse
+    return self[template].Parse(**replacements)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 486, in Parse
+    result = super(FileTemplate, self).Parse(**kwds)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 326, in Parse
+    htmlsafe = HTMLsafestring(''.join(tag.Parse(**kwds) for tag in self))
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 326, in <genexpr>
+    htmlsafe = HTMLsafestring(''.join(tag.Parse(**kwds) for tag in self))
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 616, in Parse
+    if self.Expression(expr, **kwds):
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 591, in Expression
+    return eval(''.join(nodes), None, local_vars)
+  File "<string>", line 1, in <module>
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 67, in __getitem__
+    return self._tags[key].GetValue(self._values)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 790, in GetValue
+    raise TemplateNameError('No replacement with name %r' % self.name)
+uweb3.templateparser.TemplateNameError: No replacement with name 'message'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 785, in GetValue
+    value = replacements[self.name]
+KeyError: 'message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 50, in Index
+    return self.parser.Parse('index.html')
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 204, in Parse
+    return self[template].Parse(**replacements)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 486, in Parse
+    result = super(FileTemplate, self).Parse(**kwds)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 326, in Parse
+    htmlsafe = HTMLsafestring(''.join(tag.Parse(**kwds) for tag in self))
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 326, in <genexpr>
+    htmlsafe = HTMLsafestring(''.join(tag.Parse(**kwds) for tag in self))
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 616, in Parse
+    if self.Expression(expr, **kwds):
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 591, in Expression
+    return eval(''.join(nodes), None, local_vars)
+  File "<string>", line 1, in <module>
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 67, in __getitem__
+    return self._tags[key].GetValue(self._values)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 790, in GetValue
+    raise TemplateNameError('No replacement with name %r' % self.name)
+uweb3.templateparser.TemplateNameError: No replacement with name 'message'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 785, in GetValue
+    value = replacements[self.name]
+KeyError: 'message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 50, in Index
+    return self.parser.Parse('index.html', message=None)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 204, in Parse
+    return self[template].Parse(**replacements)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 486, in Parse
+    result = super(FileTemplate, self).Parse(**kwds)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 326, in Parse
+    htmlsafe = HTMLsafestring(''.join(tag.Parse(**kwds) for tag in self))
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 326, in <genexpr>
+    htmlsafe = HTMLsafestring(''.join(tag.Parse(**kwds) for tag in self))
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 616, in Parse
+    if self.Expression(expr, **kwds):
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 591, in Expression
+    return eval(''.join(nodes), None, local_vars)
+  File "<string>", line 1, in <module>
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 67, in __getitem__
+    return self._tags[key].GetValue(self._values)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 790, in GetValue
+    raise TemplateNameError('No replacement with name %r' % self.name)
+uweb3.templateparser.TemplateNameError: No replacement with name 'message'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 785, in GetValue
+    value = replacements[self.name]
+KeyError: 'message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 50, in Index
+    return self.parser.Parse('index.html', message=None)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 204, in Parse
+    return self[template].Parse(**replacements)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 486, in Parse
+    result = super(FileTemplate, self).Parse(**kwds)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 326, in Parse
+    htmlsafe = HTMLsafestring(''.join(tag.Parse(**kwds) for tag in self))
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 326, in <genexpr>
+    htmlsafe = HTMLsafestring(''.join(tag.Parse(**kwds) for tag in self))
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 616, in Parse
+    if self.Expression(expr, **kwds):
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 591, in Expression
+    return eval(''.join(nodes), None, local_vars)
+  File "<string>", line 1, in <module>
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 67, in __getitem__
+    return self._tags[key].GetValue(self._values)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 790, in GetValue
+    raise TemplateNameError('No replacement with name %r' % self.name)
+uweb3.templateparser.TemplateNameError: No replacement with name 'message'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in AddUser
+    self.req.Redirect('/signup', httpcode=303)
+TypeError: Redirect() got an unexpected keyword argument 'httpcode'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in AddUser
+    self.req.Redirect('/signup', httpcode=303)
+TypeError: Redirect() got an unexpected keyword argument 'httpcode'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 18, in AddUser
+    self.req.Redirect('/signup', httpcode=303)
+TypeError: Redirect() got an unexpected keyword argument 'httpcode'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 21, in AddUser
+    user = model.USer.FromUsername(self.connection, username)
+AttributeError: module 'base.model' has no attribute 'USer'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 21, in AddUser
+    user = model.User.FromUsername(self.connection, username)
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username 'qwe'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 80, in Home
+    self._GetUserLoggedIn()
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 61, in _GetUserLoggedIn
+    self.user = self.cookiejar.get('login')
+AttributeError: 'PageMaker' object has no attribute 'cookiejar'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 36, in ValidateLogin
+    if user.VerifyPlaintext(str(self.post.getfirst('password', ''))):
+AttributeError: 'NoneType' object has no attribute 'VerifyPlaintext'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 36, in ValidateLogin
+    if user.VerifyPlaintext(str(self.post.getfirst('password', ''))):
+AttributeError: 'NoneType' object has no attribute 'VerifyPlaintext'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 36, in ValidateLogin
+    if user.VerifyPlaintext(str(self.post.getfirst('password', ''))):
+AttributeError: 'NoneType' object has no attribute 'VerifyPlaintext'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 37, in ValidateLogin
+    if user.VerifyPlaintext(str(self.post.getfirst('password', ''))):
+AttributeError: 'NoneType' object has no attribute 'VerifyPlaintext'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 20, in AddUser
+    user = model.User.FromUsername(self.connection, username)
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username 'r'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 21, in AddUser
+    user = model.User.FromUsername(self.connection, username)
+  File "/home/stef/devel/uweb3-login/base/model.py", line 22, in FromUsername
+    raise cls.NotExistError('No user with username %r' % username)
+uweb3.model.NotExistError: No user with username 'r'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 22, in AddUser
+    except uweb.model.NotExistError:
+NameError: name 'uweb' is not defined
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 785, in GetValue
+    value = replacements[self.name]
+KeyError: 'message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 242, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 81, in Signup
+    return self.parser.Parse('signup.html')
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 204, in Parse
+    return self[template].Parse(**replacements)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 486, in Parse
+    result = super(FileTemplate, self).Parse(**kwds)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 326, in Parse
+    htmlsafe = HTMLsafestring(''.join(tag.Parse(**kwds) for tag in self))
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 326, in <genexpr>
+    htmlsafe = HTMLsafestring(''.join(tag.Parse(**kwds) for tag in self))
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 616, in Parse
+    if self.Expression(expr, **kwds):
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 591, in Expression
+    return eval(''.join(nodes), None, local_vars)
+  File "<string>", line 1, in <module>
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 67, in __getitem__
+    return self._tags[key].GetValue(self._values)
+  File "/home/stef/devel/uweb3/uweb3/templateparser.py", line 790, in GetValue
+    raise TemplateNameError('No replacement with name %r' % self.name)
+uweb3.templateparser.TemplateNameError: No replacement with name 'message'
+UNCAUGHT EXCEPTION:
+Traceback (most recent call last):
+  File "/home/stef/devel/uweb3/uweb3/__init__.py", line 271, in get_response
+    return getattr(page_maker, method)(*args)
+  File "/home/stef/devel/uweb3-login/base/pages.py", line 83, in Signup
+    self.AddUser(self)
+TypeError: AddUser() takes 1 positional argument but 2 were given
