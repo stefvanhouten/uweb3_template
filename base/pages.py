@@ -33,7 +33,6 @@ class LoginMixin(uweb3.model.SecureCookie):
       self.Flash("Username is already taken")
       return False
 
-
   def ValidateLogin(self):
     try:
       user = self.USER.FromUsername(
