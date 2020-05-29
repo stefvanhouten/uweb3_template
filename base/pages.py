@@ -92,3 +92,8 @@ class PageMaker(uweb3.PageMaker, LoginMixin):
     except (uweb3.model.NotExistError, self.NoSessionError):
       return self.req.Redirect('/')
     return self.parser.Parse('home.html')
+
+  def Logout(self):
+    self.Delete("login")
+    return self.req.Redirect('/home')
+

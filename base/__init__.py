@@ -25,6 +25,7 @@ def main(sio=None):
       ('/signup', 'Signup'),
       ('/home', 'Home'),
       ('/login', 'ValidateLogin'),
+      ('/logout', 'Logout'),
       ('/(.*)', 'FourOhFour'),
       ]
   return uweb3.uWeb(pages.PageMaker, routes, executing_path=path)
